@@ -1,0 +1,188 @@
+
+* {
+    box-sizing: border-box;/*解決區塊寬高問題*/
+}
+
+body{
+    background-image: url(00.jpg);
+    width: 100%;
+    height: 780px;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    background-color: #4d8ce9;
+    display: flex;
+    align-items: center;/*上下居中*/
+    position: sticky;
+    top: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+header a {
+    color: #f6f8fc;
+    display: block;
+    text-decoration: none;
+}
+header h1 {
+    margin-right: auto;/*讓 menu 到右邊去*/
+}
+
+ul.menu {
+    display: flex; /*讓選單橫排*/
+    list-style: none;/*清除圓點*/
+    margin: 0;/*清除 ul 額外空間*/
+    padding: 0;/*清除 ul 額外空間*/
+    gap: 12px;
+    font-size: 25px;
+}
+ul.menu a {
+    /*超連結的正常狀態*/
+    padding: 10px 20px;
+}
+ul.menu a:hover {
+    /*當滑鼠移上超連結時的狀態*/
+    background-color: #c7d830;
+    border-radius: 20px;
+}
+
+div.m1{
+    width: 50%;
+    height: 740px;
+    background-image: url(m1.jpg);
+    margin-top: 50px;
+    background-size: cover;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(255, 107, 22);
+    -webkit-text-stroke:0.4px black;
+    padding-top: 550px;
+    padding-left: 30px;    
+}
+
+div.food{
+    position: relative;
+    left: 965px;
+    bottom: 740px;
+    width: 350px;
+
+
+
+
+}
+
+div.image1{
+    background-image: url(2018.jpg);
+    height: 230px;
+    width: 100%;
+    background-size:cover ;
+
+}
+
+div.text1{
+    padding-left: 20px;
+    position: relative;
+    left: 350px;
+    bottom: 230px;
+    background-color: #44c41e;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    height: 230px;
+    width: 500px;
+    text-shadow: 0px 1px 2px black;
+    
+
+    }
+
+div.p1{
+    font-size: 24px;
+}
+
+div.travel{
+    position: relative;
+    left: 965px;
+    bottom: 945px;
+    width: 350px;
+
+
+
+}
+
+div.image2{
+    background-image: url(attraction.jpg);
+    height: 230px;
+    width: 100%;
+    background-size:cover ;
+
+}
+
+div.text2{
+    padding-left: 20px;
+    position: relative;
+    left: 350px;
+    bottom: 230px;
+    background-color: #209bb9;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    height: 230px;
+    width: 500px;
+    text-shadow: 0px 1px 2px black;
+
+    }
+
+div.p2{
+    font-size: 24px;
+
+}
+
+div.history{
+    position: relative;
+    left: 965px;
+    bottom: 1150px;
+    width: 350px;
+
+
+
+}
+
+div.image3{
+    background-image: url(u.png);
+    height: 230px;
+    width: 100%;
+    background-size:cover ;
+
+}
+
+div.text3{
+    padding-left: 20px;
+    position: relative;
+    left: 350px;
+    bottom: 230px;
+    background-color: #ad6614;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    height: 230px;
+    width: 500px;
+    text-shadow: 0px 1px 2px black;
+
+    }
+
+div.p3{
+    font-size: 24px;
+    
+}
+
+
+
+a{  color: rgb(255, 239, 10); text-decoration: none;}
+
+a.a1:hover{ text-decoration-line: underline; 
+    }
